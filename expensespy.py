@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as ny
-df=pd.read_csv("E.csv")
+df=pd.read_csv("expenses.csv")
 tab=pd.DataFrame(df,columns=["Date","Catergory","Amount"])
 
 print("""
